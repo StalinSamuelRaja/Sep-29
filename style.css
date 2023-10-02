@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.bg {
+    
+    background-image: url("https://img.freepik.com/free-vector/indian-tricolor-theme-watercolor-texture-patriotic-background-vector_1055-11952.jpg?w=996&t=st=1696219206~exp=1696219806~hmac=5cd03c16ce78461605208bcdabc4be431e43b63a9e5911b500e07e7167f4fb06");
+    height: 100vh; 
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+  h1{
+    margin: 20px;
+    padding: 30px;
+
+  }
+.inbuild-element-grp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(30, 2, 123);
+}
+
+
+.btn{
+    width: 120px;
+    gap: 5rem;
+    background-color: rgb(31, 75, 76);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana;
+    color: #ffffff;
+    padding: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:aliceblue;
+    color: rgb(30, 79, 74);
+}
+.timer{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: none;
+    width:500px;
+    height: 400px;
+}
+.timer{
+    font-size: larger;
+}
+@media screen and (min-width:850px) and (max-width:1250px){
+
+    img{
+       height: 500px;
+    }
+    .timer{
+              font-size: small;
+              text-align: center;
+    }
+    }
+    
+    @media screen and (min-width: 450px) and (max-width:850px){
+              img{
+                        height: 300px;
+                     }
+                     .tim{
+                               font-size: smaller;
+                               text-align: center;
+                     }   
+    }
+    
+    @media screen and (max-width:450px){
+       main{
+              grid-template-columns: 100vw;
+    
+       } 
+       img {
+              height : 30vh;
+              
+       }  
+       .timer{
+              font-size: smaller;
+              overflow: auto;
+              text-align: center;
+              margin-left: 5vw;
+    
+    }      
+    }
